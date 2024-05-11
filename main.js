@@ -52,8 +52,4 @@ document.addEventListener("DOMContentLoaded", function() {
     resultsList.appendChild(listItem);
   }
   
-  function resetForm() {
-    searchTxt.value = ''; // Clear the input field
-    resultsList.innerHTML = ''; // Clear the displayed results
-  }
 });
